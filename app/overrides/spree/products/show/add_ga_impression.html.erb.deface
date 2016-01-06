@@ -1,0 +1,2 @@
+<!-- insert_bottom '[data-hook="product_show"]' -->
+<%= render 'spree/shared/google_add_impression.js', product: @product %>

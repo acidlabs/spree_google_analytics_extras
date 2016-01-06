@@ -1,0 +1,3 @@
+<!-- replace "erb[loud]:contains('add-to-cart-button')" -->
+
+<%= button_tag class: 'btn btn-success add-to-cart-button', id: 'add-to-cart-button', type: :submit, data: { sku: @product.sku, name: @product.name, price: @product.price } do %>
